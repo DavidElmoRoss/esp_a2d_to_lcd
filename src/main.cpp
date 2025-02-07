@@ -12,7 +12,7 @@
 #define SDA 13                              //Define SDA pins
 #define SCL 14                              //Define SCL pins
 
-LiquidCrystal_I2C lcd(0x27,16,2);           // LCD is 16 columns by 2 rows
+LiquidCrystal_I2C lcd(0x27,16,2);           // LCD i2c address 0x27, cols=16, rows=2
 #define PIN_ANALOG_IN  34                   // Pin 34 is the A/D being used
 void setup() 
 {
